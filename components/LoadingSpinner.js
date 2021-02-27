@@ -17,7 +17,6 @@ export default function LoadingSpinner() {
   return (
     <div className={classes.root} id='loadSpinner'>
       <CircularProgress />
-      <CircularProgress color="secondary" />
     </div>
   );
 }

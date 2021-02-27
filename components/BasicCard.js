@@ -1,3 +1,5 @@
+// Basic card component to hold data and have button that Next.js SSR general about page.
+
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -41,6 +43,7 @@ export default function BasicCard(props) {
        
       </CardContent>
       <CardActions>
+        {/* SSR to general about page */}
         <Link href='/about'>
           <Button size="small">Learn More</Button>
 

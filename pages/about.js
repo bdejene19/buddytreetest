@@ -1,3 +1,4 @@
+// general about page
 const about = () => {
     return (
         <div>
